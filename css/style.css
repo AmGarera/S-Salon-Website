@@ -85,8 +85,8 @@ p {
   /*Text above book now*/
   #hair_skin_nails {
     height: 70px;
-    width: 400px;
-    margin-top: 37px;
+    width: 375px;
+    margin-top: 33px;
   }
 }
 
@@ -119,6 +119,9 @@ h4 {
 font-family: 'Josefin Slab', serif;
 }
 h5 {
+  font-family: 'Josefin Slab', serif;
+}
+li {
   font-family: 'Josefin Slab', serif;
 }
 
