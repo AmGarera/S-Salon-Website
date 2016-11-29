@@ -9,7 +9,9 @@
 nav ul a,
 nav .brand-logo {
   color: #444;
+  font-size: 1.25rem;;
 }
+
 /*For Salon Logo*/
 img.responsive-img, video.responsive-video {
   max-width: 100%;
@@ -22,6 +24,27 @@ nav .button-collapse i {
 p {
   line-height: 2rem;
   font-family: 'Quicksand', sans-serif;
+}
+#topBorder {
+  height: 10px;
+  width: 70%;
+  transform: translate(180px);
+  background-color: yellow;
+}
+#welcomeBorder {
+  /*border-style: solid;*/
+  border-width: 5px;
+  border-bottom: solid;
+  border-bottom-color: yellow;
+  border-bottom-width: medium;
+}
+
+#salonWelcome {
+  transform: translate(70px, -70px);
+}
+#download-button{
+  transform: translate(90px, 130px);
+  background-color: blue;
 }
 /*Text above book now*/
 #hair_skin_nails {
@@ -54,6 +77,12 @@ p {
     position: absolute;
     top: 40%;
   }
+  #topBorder {
+    height: 5px;
+    width: 87.5%;
+    transform: translate(50px);
+    background-color: yellow;
+  }
   #index-banner .section {
     top: 10%;
   }
@@ -67,11 +96,17 @@ p {
     height: 20px;
     width: 700px;
   }
+  #download-button {
+    transform: translate(-190px, 130px);
+  }
 }
 /*Phone CSS*/
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  #topBorder {
+    display: none;
   }
   #bookingLogo {
     display: none;
@@ -88,8 +123,16 @@ p {
     width: 375px;
     margin-top: 33px;
   }
+  /*Welcome text*/
+  #salonWelcome {
+    transform: translate(40px, -70px);
+  }
+  /*Book Now button*/
+  #download-button {
+    transform: translate(-150px, 180px);
+  }
 }
-
+/*End of phone CSS*/
 .icon-block {
   padding: 0 15px;
 }
