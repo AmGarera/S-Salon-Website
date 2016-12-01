@@ -70,6 +70,28 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+#servicesTitle {
+  border: 2px solid red;
+  border-width: thin;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+
+
+}
+
+#aboutUsTitle {
+  border: 2px solid blue;
+  border-width: thin;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+
+}
 
 /* ----------- Retina Screens ----------- */
 @media screen
@@ -83,6 +105,11 @@ and (min-resolution: 192dpi) {
     width: 70%;
     transform: translate(180px);
     background-color: yellow;
+  }
+  /*Text above book now*/
+  #hair_skin_nails {
+    height: 20px;
+    transform: translate(40px, 0px);
   }
 
   #salonWelcome {
