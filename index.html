@@ -23,6 +23,8 @@
     <script>$(document).ready(function () {
         // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal').modal();
+        $('.tooltipped').tooltip({delay: 50, html: true});
+        var $toastContent = $('<span>I am toast content</span>');
     });</script>
 </head>
 <body>
@@ -181,11 +183,12 @@
         </div>
         <div class="row">
             <ul class="grid">
-                <li class="grid-item"><img class="circle" src="assets/Sheila.png" alt="Sheila"></li>
-                <li class="grid-item"><img class="circle" src="assets/Ashlea.png" alt="Ashlea"></li>
-                <li class="grid-item"><img class="circle" src="assets/Bekah.png" alt="Bekah"></li>
-                <li class="grid-item"><img class="circle" src="assets/Christina.png" alt="Christina"></li>
-                <li class="grid-item"><img class="circle" src="assets/Lisa.png" alt="Lisa"></li>
+                <!--Tooltipped Bios-->
+                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip=' Sheila <br><span class="black-text"><i class="tiny white material-icons">phone</i><a href="tel:7046508259"> 704-650-8259 </a></span> <br> Click My Picture To Book' src="assets/Sheila.png" alt="Sheila"></li>
+                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ashlea" src="assets/Ashlea.png" alt="Ashlea"></li>
+                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bekah" src="assets/Bekah.png" alt="Bekah"></li>
+                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Christina" src="assets/Christina.png" alt="Christina"></li>
+                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Lisa" src="assets/Lisa.png" alt="Lisa"></li>
             </ul>
         </div>
     </div>
