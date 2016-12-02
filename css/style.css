@@ -11,6 +11,56 @@ nav .brand-logo {
   color: #444;
   font-size: 1.25rem;;
 }
+.img-circle {
+  border-radius: 50%;
+  display: inline-block;
+}
+.parallax-container {
+  height: 400px;
+}
+/*Grid for Our Staff*/
+
+/**** Grid Style ****/
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.grid-item {
+  list-style: none;
+  -webkit-flex-basis: 140px;
+  -ms-flex-preferred-size: 140px;
+  flex-basis: 140px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.grid-item img {
+  max-width: 100%;
+  margin: auto;
+  Transition: 0.3s;
+}
+.grid-item .member-name {
+  text-align: center;
+}
+.grid-item .member-title {
+  display: block;
+  text-align: center;
+}
 
 /*For Salon Logo*/
 img.responsive-img, video.responsive-video {
@@ -27,8 +77,7 @@ p {
 }
 #topBorder {
   height: 10px;
-  width: 70%;
-  transform: translate(260px);
+  width: 100%;
   background-color: yellow;
 }
 #welcomeBorder {
@@ -37,14 +86,25 @@ p {
   border-bottom: solid;
   border-bottom-color: yellow;
   border-bottom-width: medium;
+  margin-bottom: 15px;
+}#bookingBorder {
+   border: 2px solid #ffff00;
+   border-width: thin;
+   padding-bottom: 12px;
+   padding-top: 12px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-family: 'Quicksand', sans-serif;
 }
 
 #salonWelcome {
-  transform: translate(95px, -70px);
+  width: 80%;
+
 }
 #download-button{
-  transform: translate(90px, 130px);
+  /*transform: translate(-50px, 190px);*/
   background-color: blue;
+margin: 20px;
 }
 /*Text above book now*/
 #hair_skin_nails {
@@ -102,8 +162,8 @@ and (min-resolution: 192dpi) {
 
   #topBorder {
     height: 10px;
-    width: 70%;
-    transform: translate(180px);
+    width: 100%;
+    /*transform: translate(180px);*/
     background-color: yellow;
   }
   /*Text above book now*/
@@ -113,17 +173,20 @@ and (min-resolution: 192dpi) {
   }
 
   #salonWelcome {
-    transform: translate(70px, -70px);
+
 }
 /*CSS For iPads/Tablets*/
-@media only screen and (max-width : 992px) {
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
   #topBorder {
     height: 5px;
-    width: 87.5%;
+    width: 100%;
     transform: translate(50px);
     background-color: yellow;
   }
@@ -140,8 +203,17 @@ and (min-resolution: 192dpi) {
     height: 20px;
     width: 700px;
   }
+  .grid-item {
+    list-style: none;
+    -webkit-flex-basis: 120px;
+    -ms-flex-preferred-size: 120px;
+    flex-basis: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
   #download-button {
-    transform: translate(-190px, 130px);
+    /*transform: translate(0px, 100px);*/
   }
 }
 /*Phone CSS*/
@@ -169,11 +241,20 @@ and (min-resolution: 192dpi) {
   }
   /*Welcome text*/
   #salonWelcome {
-    transform: translate(40px, -70px);
+
   }
   /*Book Now button*/
   #download-button {
-    transform: translate(-150px, 180px);
+    /*transform: translate(-150px, 180px);*/
+  }
+  .grid-item {
+    list-style: none;
+    -webkit-flex-basis: 120px;
+    -ms-flex-preferred-size: 120px;
+    flex-basis: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
   }
 }
 /*End of phone CSS*/
