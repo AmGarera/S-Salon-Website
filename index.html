@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <title>Salon etc.</title>
-
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Quicksand:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -54,7 +53,7 @@
 
     </div>
 </nav>
-<div id="topBorder"></div>
+<div class="topBorder"></div>
 <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
         <div class="container">
@@ -87,7 +86,7 @@
                 </p></div>
 
         </div>
-<div id="welcomeBorder"></div>
+        <div class="topBorder"></div>
         <div class="section">
             <div class="col s6">
                 <h4 class="center"><span id="servicesTitle"><b>SERVICES</b></span></h4>
@@ -202,8 +201,8 @@
 <footer class="page-footer blue">
     <div class="container">
         <div class="row white">
-            <div class="col l6 s12">
-                <h5 class="black-text">Company Bio</h5>
+            <div class="col l4 s12">
+                <h5 class="black-text">Hours</h5>
                 <ul>
                     <li><span>M - CLOSED</span></li>
                     <li>T - 9 - 6</li>
@@ -216,8 +215,40 @@
 
 
             </div>
+            <!--Contact Info And Location-->
+            <div class="col l4 s12">
+                <p class="black-text yellowborder">704-898-9797 </p>
+                <br>
+                <p class="black-text yellowborder">3826-8 South New Hope Rd. Gastonia, NC 28056</p>
+                <br>
+                <p class="yellowborder">salonetc.nc@gmail.com</p>
+
+
+            </div>
+
+            <!--Google Maps-->
+            <div id="map" class="col l4 s12"></div>
+            <script>
+                function initMap() {
+                    var uluru = {lat: -25.363, lng: 131.044};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 4,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1Brdu3iC0iqrm7874LAEUr7FVuizUwxI&callback=initMap">
+            </script>
+            <!--a-->
+        </div>
+        <div class="center"><h5 class="white-text">Connect With Us</h5>
+
             <div class="col l3 s12">
-                <h5 class="white-text">Social Media</h5>
+
                 <ul>
                     <li><a class="white-text" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
                     </li>
@@ -228,9 +259,7 @@
 
                 </ul>
             </div>
-            <!--a-->
         </div>
-        <div class="center"><h5 class="white-text">Connect With Us</h5></div>
     </div>
 
     <div class="footer-copyright">
