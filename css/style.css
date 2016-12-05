@@ -112,6 +112,9 @@ p {
    padding-right: 10px;
    font-family: 'Quicksand', sans-serif;
  }
+ #gmap_canvas {
+   height: 60px;
+ }
 
 #salonWelcome {
   width: 80%;
