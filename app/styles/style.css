@@ -18,6 +18,16 @@ nav .brand-logo {
 .parallax-container {
   height: 700px;
 }
+/*Desktop Layout*/
+#gastoniaYellow {
+    text-indent: 18px;
+    display: inline-block;
+}
+#iconFooter {
+    font-size: x-large;
+    text-indent: 30px;
+transform: translate(-25px,0px);
+}
 /*Grid for Our Staff*/
 
 /**** Grid Style ****/
@@ -209,6 +219,10 @@ and (min-resolution: 192dpi) {
     transform: translate(50px);
     background-color: yellow;
   }
+
+  #gastoniaYellow{
+      text-indent: 43px;
+  }
   #index-banner .section {
     top: 10%;
   }
@@ -245,6 +259,10 @@ and (min-resolution: 192dpi) {
   }
   #bookingLogo {
     display: none;
+  }
+  #gastoniaYellow {
+      text-indent: 22px;
+      display: inline-block;
   }
   #img-responsive-height {
     display: block;
