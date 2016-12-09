@@ -334,13 +334,13 @@ footer.page-footer {
   font-weight: normal;
 }
 h4 {
-font-family: 'Walkway', serif;
+font-family: 'Walkway', sans-serif;
 }
 h5 {
-  font-family: 'Walkway', serif;
+  font-family: 'Walkway', sans-serif;
 }
 li {
-  font-family: 'Walkway', serif;
+  font-family: 'Walkway', sans-serif;
 }
 
 .col.s12 > .btn {
