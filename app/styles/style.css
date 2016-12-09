@@ -5,7 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
-
+body{
+    font-family: Lato;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -86,7 +88,7 @@ nav .button-collapse i {
 }
 p {
   line-height: 2rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .topBorder {
   height: 10px;
@@ -113,7 +115,7 @@ p {
    padding-top: 12px;
    padding-left: 10px;
    padding-right: 10px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: 'Lato', sans-serif;
 }
 
  .yellowborder {
@@ -123,7 +125,7 @@ p {
    padding-top: 12px;
    padding-left: 10px;
    padding-right: 10px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: 'Lato', sans-serif;
  }
  #gmap_canvas {
    height: 60px;
@@ -169,7 +171,7 @@ p {
   padding-top: 12px;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 
 }
@@ -181,7 +183,7 @@ p {
   padding-top: 12px;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 }
 
@@ -324,13 +326,13 @@ footer.page-footer {
   font-weight: normal;
 }
 h4 {
-font-family: 'Josefin Slab', serif;
+font-family: 'Walkway', serif;
 }
 h5 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Walkway', serif;
 }
 li {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Walkway', serif;
 }
 
 .col.s12 > .btn {
