@@ -13,6 +13,18 @@ nav .brand-logo {
   color: #444;
   font-size: 1.25rem;;
 }
+nav ul li:hover {
+    background-color: #407ec9;
+}
+#modal1{
+
+}
+#modal2 {
+    width: 40%
+}
+#modal3 {
+    width: 470px
+}
 .img-circle {
   border-radius: 50%;
   display: inline-block;
@@ -63,6 +75,9 @@ transform: translate(-25px,0px);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
+}
+.bookingLogo {
+    flex-basis: 250px;
 }
 .grid-item img {
   max-width: 100%;
@@ -173,8 +188,8 @@ p {
     width: 100%;
   }
 #servicesTitle {
-  border: 2px solid red;
-  border-width: thin;
+  border: 4px solid #da291c;
+  border-width: medium;
   padding-bottom: 12px;
   padding-top: 12px;
   padding-left: 10px;
@@ -184,9 +199,10 @@ p {
 
 }
 
+
 #aboutUsTitle {
-  border: 2px solid blue;
-  border-width: thin;
+  border: 4px solid #407ec9;
+  border-width: medium;
   padding-bottom: 12px;
   padding-top: 12px;
   padding-left: 10px;

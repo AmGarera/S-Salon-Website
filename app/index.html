@@ -25,6 +25,7 @@
         $('.parallax').parallax();
         $('.collapsible').collapsible();
         var $toastContent = $('<span>I am toast content</span>');
+
     });</script>
 </head>
 <body>
@@ -83,8 +84,8 @@
                 <p >
                     <span id="salonWelcome" class="left">WELCOME TO SALON ETC., A FULL SERVICE ORGANIC SALON LOCATED IN GASTONIA, NC. TREAT YOURSELF OR A LOVED ONE TO A RELAXING AND PAMPERING SALON
                 EXPERIENCE!</span>
-                    <a href="http://www.vagaro.com/ncsalonetc"
-                                      class="btn-large waves-effect waves-light blue lighten-1 hvr-shutter-out-horizontal right ">Book
+                    <a style="background-color: #407ec9" href="http://www.vagaro.com/ncsalonetc"
+                                      class="btn-large waves-effect waves-light lighten-1 hvr-shutter-out-horizontal right ">Book
                     Now!</a>
                 </p></div>
 
@@ -93,15 +94,15 @@
         <div class="section">
             <div class="col s6">
                 <h4 class="center"><span id="servicesTitle"><b>SERVICES</b></span></h4>
-                <P class="center">Click on an icon below to view our salon services and pricing:</P>
+                <P style="line-height: 8rem" class="center">Click on an icon below to view our salon services and pricing:</P>
             </div>
         </div>
 
         <div class="row">
             <ul class="grid">
-                <li class="grid-item"><a href="#modal1"><img src="images/Hair.png" alt="Hair" ></a></li>
-                <li class="grid-item"><a href="#modal2"><img src="images/Skin.png" alt="Skin"></a></li>
-                <li class="grid-item"><a href="#modal3"><img src="images/Nails.png" alt="Nails"></a></li>
+                <li class="grid-item bookingLogo"><a href="#modal1"><img src="images/Hair.png" alt="Hair" ></a></li>
+                <li class="grid-item bookingLogo"><a href="#modal2"><img src="images/Skin.png" alt="Skin"></a></li>
+                <li class="grid-item bookingLogo"><a href="#modal3"><img src="images/Nails.png" alt="Nails"></a></li>
 
             </ul>
 
@@ -110,7 +111,7 @@
                 <!-- Modal Structure -->
                 <div id="modal1" class="modal">
                     <div class="modal-content">
-                        <img class="img-responsive-height" src="images/HairMenu.png"
+                        <img class="img-responsive-height" src="images/Menu_Hair.png"
                              alt="Upgrade or try a different browser">
                     </div>
                     <div class="modal-footer">
@@ -120,7 +121,7 @@
         <!--Modal 2-->
         <div id="modal2" class="modal">
             <div class="modal-content">
-                <img class="img-responsive-height-nails" src="images/skinMenu.png"
+                <img class="img-responsive-height-nails" src="images/Menu_Skin.png"
                      alt="Upgrade or try a different browser">
             </div>
             <div class="modal-footer">
@@ -130,7 +131,7 @@
         <!--Modal 3-->
         <div id="modal3" class="modal">
             <div class="modal-content">
-                <img class="img-responsive-height-nails" src="images/nailsMenu.png"
+                <img src="images/Menu_Nails.png"
                      alt="Upgrade or try a different browser">
             </div>
             <div class="modal-footer">
