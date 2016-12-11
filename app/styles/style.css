@@ -93,7 +93,7 @@ transform: translate(-25px,0px);
 }
 
 /*For Salon Logo*/
-img.responsive-img, video.responsive-video {
+.SalonLogo {
   max-width: 100%;
   height: 60px;
 }

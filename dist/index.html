@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <title>Salon etc.</title>
     <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Quicksand:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Lato:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styles/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -25,6 +25,7 @@
         $('.parallax').parallax();
         $('.collapsible').collapsible();
         var $toastContent = $('<span>I am toast content</span>');
+
     });</script>
 </head>
 <body>
@@ -37,10 +38,10 @@
 
         <!--Nav bar on desktop/laptop-->
         <ul class="right hide-on-med-and-down collection-item">
-            <li><a href="#servicesTitle" class="collection-item">Services</a></li>
-            <li><a href="#aboutUsTitle" class="collection-item">About Us</a></li>
-            <li><a href="http://www.vagaro.com/ncsalonetc" class="collection-item">Booking</a></li>
-            <li><a href="#contactUS" class="collection-item">Contact</a></li>
+            <li><a href="#servicesTitle" class="collection-item">SERVICES</a></li>
+            <li><a href="#aboutUsTitle" class="collection-item">ABOUT US</a></li>
+            <li><a href="http://www.vagaro.com/ncsalonetc" class="collection-item">BOOKING</a></li>
+            <li><a href="#contactUS" class="collection-item">CONTACT</a></li>
 
 
         </ul>
@@ -83,8 +84,8 @@
                 <p >
                     <span id="salonWelcome" class="left">WELCOME TO SALON ETC., A FULL SERVICE ORGANIC SALON LOCATED IN GASTONIA, NC. TREAT YOURSELF OR A LOVED ONE TO A RELAXING AND PAMPERING SALON
                 EXPERIENCE!</span>
-                    <a href="http://www.vagaro.com/ncsalonetc"
-                                      class="btn-large waves-effect waves-light blue lighten-1 hvr-shutter-out-horizontal right ">Book
+                    <a style="background-color: #407ec9" href="http://www.vagaro.com/ncsalonetc"
+                                      class="btn-large waves-effect waves-light lighten-1 hvr-shutter-out-horizontal right ">Book
                     Now!</a>
                 </p></div>
 
@@ -93,15 +94,15 @@
         <div class="section">
             <div class="col s6">
                 <h4 class="center"><span id="servicesTitle"><b>SERVICES</b></span></h4>
-                <P class="center">Click on an icon below to view our salon services and pricing:</P>
+                <P style="line-height: 8rem" class="center">Click on an icon below to view our salon services and pricing:</P>
             </div>
         </div>
 
         <div class="row">
             <ul class="grid">
-                <li class="grid-item"><a href="#modal1"><img src="images/Hair.png" alt="Hair" ></a></li>
-                <li class="grid-item"><a href="#modal2"><img src="images/Nails.png" alt=""></a></li>
-                <li class="grid-item"><img src="images/Skin.png" alt=""></li>
+                <li class="grid-item bookingLogo"><a href="#modal1"><img src="images/Hair.png" alt="Hair" ></a></li>
+                <li class="grid-item bookingLogo"><a href="#modal2"><img src="images/Skin.png" alt="Skin"></a></li>
+                <li class="grid-item bookingLogo"><a href="#modal3"><img src="images/Nails.png" alt="Nails"></a></li>
 
             </ul>
 
@@ -110,13 +111,94 @@
                 <!-- Modal Structure -->
                 <div id="modal1" class="modal">
                     <div class="modal-content">
-                        <img id="img-responsive-height" src="images/HairMenu.png"
+                        <img class="img-responsive-height" src="images/Menu_Hair.png"
                              alt="Upgrade or try a different browser">
                     </div>
                     <div class="modal-footer">
-                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-yellow btn-flat">Close</a>
                     </div>
                 </div>
+        <!--Modal 2-->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <img class="img-responsive-height-nails" src="images/Menu_Skin.png"
+                     alt="Upgrade or try a different browser">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <!--Modal 3-->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <img src="images/Menu_Nails.png"
+                     alt="Upgrade or try a different browser">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <!--BIOS-->
+
+        <!--Modal Sheila-->
+        <div id="modalSheila" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>SHEILA VILLADA</h4> <br> <p class="flow-text">As the owner of Salon Etc., my goal is to have a team of talented individuals, providing the best customer service and making the salon feel like home. I am a nail tech and have been a licensed cosmetologist for 27 years. I deeply enjoy doing nails and pampering clients, taking my time with each and every client to give them a good manicure or pedicure so they do not feel rushed. I specialize in repairing ingrown toenails. Your nails are a way to speak your style without having to say a word!</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Call Me</a>
+            </div>
+        </div>
+
+        <!--Modal Ashlea-->
+        <div id="modalAshlea" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Ashlea</h4> <br> <p class="flow-text">I've been doing hair since 2004.  I attend The Paul Mitchell School in Gastonia. I love doing hair.  It makes me smile when my client leaves looking and feeling great about themselves. I do haircuts, color services, makeup, and special occasion hair.  It's fun to come in and play with hair and makeup all day, like playing with dolls when I was a kid.  Our clients are very important to us, and we get to know and love them on a personal level.  It's great to be able to come to work and it not feel like it's work.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Call Me</a>
+            </div>
+        </div>
+
+        <!--Modal Bekah-->
+        <div id="modalBekah" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Bekah</h4> <br> <p class="flow-text">Hi, my names Bekah! I'm originally from Mooresville but moved to the Gastonia area recently. I have two little potbelly pigs and a dog who are like my kids and also a fiancé who is like a 4th kid! (Lol!) On a serious note: growing up although I was a major tomboy I was the one doing other people's hair, whether it was for prom/special event or just to practice a new style.
+
+                Shortly after graduating high school, I attended Aveda Institute of Charlotte for cosmetology. I have been in the industry for 3+ years now and I'm loving every second of it. I strive to constantly better myself in new techniques and I'm always open to learning. I believe that there's more to it than touching up new growth and trimming ends, it's about how I as a stylist make my clients feel leaving the salon. I will always make it my utmost priority to please my clients and to make them feel like a million dollars.
+                "When you love what you do, you'll never work a day in your life.”</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Call Me</a>
+            </div>
+        </div>
+
+        <div id="modalChristina" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Christina</h4> <br> <p class="flow-text">
+                Massage therapy has been an important part of most of my life.  I specialize in therapeutic work that truly helps people feel on point. Pressure ranges from relaxing to deep tissue, trigger point, lymphatic, and sports massage are available. Being a martial artist with a passion for anatomy and the art of healing gives me a wide range of understanding of the body. I look forward to your presence on my massage table.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Call Me</a>
+            </div>
+        </div>
+
+        <div id="modalLisa" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Lisa Stevens: Esthictian</h4> <br> <p class="flow-text">
+                I have always had a passion for skin care from a young age due to my psoriasis. It has been a life long journey to manange, understand and I love the skin I’m in. My number one goal is for all my clients to love the skin that are in too!
+                I graduated from Rowan Cabarrus Community Collage May of 15'. Trained with Emenic, Tuel & Murad product lines. Knowledgeable about many other other product lines. I perform facials and all waxing.
+                When not at the salon I am hiking in the mountains, in an art gallery or enjoying family & friends. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Call Me</a>
+            </div>
+        </div>
                 <!--End of Modal-->
 
             </div>
@@ -157,11 +239,11 @@
         <div class="row">
             <ul class="grid">
                 <!--Tooltipped Bios-->
-                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip=' Sheila <br><span class="black-text"><i class="tiny white material-icons">phone</i><a href="tel:7046508259"> 704-650-8259 </a></span> <br> Click My Picture To Book' src="images/Sheila.png" alt="Sheila"></li>
-                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ashlea" src="images/Ashlea.png" alt="Ashlea"></li>
-                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bekah" src="images/Bekah.png" alt="Bekah"></li>
-                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Christina" src="images/Christina.png" alt="Christina"></li>
-                <li class="grid-item"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Lisa" src="images/Lisa.png" alt="Lisa"></li>
+                <li class="grid-item"><a href="#modalSheila"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip='Sheila'  src="images/Sheila.png" alt="Sheila"></a></li>
+                <li class="grid-item"><a href="#modalAshlea"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ashlea" src="images/Ashlea.png" alt="Ashlea"></a></li>
+                <li class="grid-item"><a href="#modalBekah"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bekah" src="images/Bekah.png" alt="Bekah"></a></li>
+                <li class="grid-item"><a href="#modalChristina"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Christina" src="images/Christina.png" alt="Christina"></a></li>
+                <li class="grid-item"><a href="#modalLisa"><img class="circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Lisa" src="images/Lisa.png" alt="Lisa"></a></li>
             </ul>
         </div>
     </div>
@@ -187,16 +269,16 @@
                 <h3><i class="mdi-content-send black-text"></i></h3>
                 <h4><span id="bookingBorder">BOOKING</span></h4>
             </div>
-            <div class="col s12 m12 l12">
-                <p class="black-text text-lighten-4"> <span class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                    scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum
-                    ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.
+            <div class="col s12 m12 l10">
+                <p class="black-text text-lighten-4"> <span class="flow-text"> If you're interested in coming in for a visit or are a new customer, please consider scheduling an appointment through our easy online booking system! See Contact below if you perfer to call us.
                 </span>
+            </div>
+            <div class="col s12 m12 l2"></div>
                     <a href="http://www.vagaro.com/ncsalonetc"
-                       class="btn-large waves-effect waves-light blue lighten-1 hvr-shutter-out-horizontal right ">Book
+                        style="background-color: #407ec9" class="btn-large waves-effect waves-light lighten-1 hvr-shutter-out-horizontal right ">Book
                         Now!</a>
                 </p>
-        </div>
+
         </div>
     </div>
 </div>
@@ -204,11 +286,18 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
+
                 <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
             </div>
         </div>
     </div>
     <div class="parallax"><img src="images/Contact.png" alt="Booking Image"></div>
+</div>
+<div id="contactBarParallax" class="row center">
+    <div style="background-color: #407ec9">
+        <h4 style="line-height: 100px" class="white-text">Contact</h4>
+    </div>
+    <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
 </div>
 <br>
 <br>
@@ -246,12 +335,12 @@
     </div>
 
 </div>
-<footer class="page-footer blue">
+<footer  style="background-color: #407ec9" class="page-footer">
     <div class="container">
         <div class="center"><h5 class="white-text">Connect With Us</h5>
 
             <div id="iconFooter" class="row col s12">
-<!--Social Icon Row-->
+                <!--Social Icon Row-->
                 <a class="white-text" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a class="white-text" href="#!"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 <a class="white-text" href="#!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
@@ -262,7 +351,7 @@
         </div>
     </div>
 
-    <div class="footer-copyright light-blue">
+    <div style="background-color: #5D94CB" class="footer-copyright">
         <div class="container">
             Made by <a class="black-text text-lighten-3" href="https://anthonygarera.com">
             <i class="fa fa-superpowers" aria-hidden="true">
