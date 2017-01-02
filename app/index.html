@@ -8,6 +8,7 @@
     <title>Salon etc</title>
     <link rel="icon" href="images/Favicon_1.png">
     <!-- CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Lato:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styles/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="styles/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <!--  Scripts-->
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <!--MaterializeCSS Modal Hotfix-->
@@ -79,7 +81,13 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="images/Hero1.png" alt="Salon Image 1"></div>
+
+        <!--<picture>-->
+            <!--<source srcset="images/Hero1.webp" type="image/webp">-->
+            <!--<source srcset="images/Hero1.png" type="image/png">-->
+            <img src="images/Hero1.png" alt="Salon Image 1">
+        <!--</picture>-->
+    </div>
 </div>
 
 
@@ -344,7 +352,7 @@
                 <!--Social Icon Row-->
                 <a class="white-text" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a class="white-text" href="#!"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a class="white-text" href="#!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a class="white-text" href="https://twitter.com/salonetcnc"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                 <a class="white-text" href="#!"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a class="white-text" href="#!"><i class="fa fa-google" aria-hidden="true"></i></a>
 
