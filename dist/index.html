@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
     <!--  Scripts-->
-    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <!--MaterializeCSS Modal Hotfix-->
     <script>$(document).ready(function () {
@@ -114,9 +116,9 @@
 
         <div class="row">
             <ul class="grid">
-                <li class="grid-item bookingLogo"><a href="#modal1"><img src="images/Hair.png" alt="Hair" ></a></li>
-                <li class="grid-item bookingLogo"><a href="#modal2"><img src="images/Skin.png" alt="Skin"></a></li>
-                <li class="grid-item bookingLogo"><a href="#modal3"><img src="images/Nails.png" alt="Nails"></a></li>
+                <li class="grid-item bookingLogo"><a href="#" data-featherlight="images/Menu_Hair.png"><img src="images/Hair.png" alt="Hair" ></a></li>
+                <li class="grid-item bookingLogo"><a href="#" data-featherlight="images/Skin_Menu2.png"><img src="images/Skin.png" alt="Skin"></a></li>
+                <li class="grid-item bookingLogo"><a href="#" data-featherlight="images/Menu_Nails.png"><img src="images/Nails.png" alt="Nails"></a></li>
 
             </ul>
 
@@ -133,9 +135,9 @@
                     </div>
                 </div>
         <!--Modal 2-->
-        <div id="modal2" class="modal">
+        <div id="modal2" class="modal modal-fixed-footer">
             <div class="modal-content">
-                <img class="responsive-img" src="images/Menu_Skin.png"
+                <img class="responsive-img" src="images/Skin_Menu2.png"
                      alt="Upgrade or try a different browser">
             </div>
             <div class="modal-footer">
