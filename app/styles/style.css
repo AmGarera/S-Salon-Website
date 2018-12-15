@@ -381,3 +381,6 @@ li {
 .circle {
   height: 6rem;
 }
+.modal-action-fix {
+  margin: 6px -6px;
+}
