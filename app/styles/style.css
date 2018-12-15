@@ -371,6 +371,7 @@ li {
 .EmpCircleLogo {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  z-index: 0;
 }
 .normalizeCircle {
   height: 4.7rem;

@@ -27,7 +27,7 @@
     <script>$(document).ready(function () {
         // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal').modal();
-        $('.tooltipped').tooltip({delay: 50, html: true, margin: 10});
+        $('.tooltipped').tooltip({delay: 0, html: true, margin: 10, outDuration: 0});
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
         $('.collapsible').collapsible();
@@ -264,7 +264,7 @@
         </div>
         <div class="row">
                 <!--Tooltipped Bios-->
-                <div class="col s4 m2"><a href="#modalSheila"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="50" data-tooltip='Sheila'  src="images/Sheila.png" alt="Sheila"></a></div>
+                <div class="col s4 m2"><a href="#modalSheila"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="0" data-tooltip='Sheila'  src="images/Sheila.png" alt="Sheila" onclick="$('.tooltipped').tooltip('remove');"></a></div>
                 <div class="col s4 m2"><a href="#modalAshlea"><img class="circle tooltipped EmpCircleLogoadjustedCircle" data-position="bottom" data-delay="50" data-tooltip="Ashlea" src="images/Ashlea.png" alt="Ashlea"></a></div>
                 <div class="col s4 m2"><a href="#modalBekah"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="50" data-tooltip="Bekah" src="images/Bekah.png" alt="Bekah"></a></div>
                 <div class="col s4 m2"><a href="#modalChristina"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="50" data-tooltip="Christina" src="images/Christina.png" alt="Christina"></a></div>
