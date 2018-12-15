@@ -373,5 +373,11 @@ li {
   filter: grayscale(100%);
 }
 .normalizeCircle {
-  height: 8rem;
+  height: 4.7rem;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.circle {
+  height: 6rem;
 }

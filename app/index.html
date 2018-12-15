@@ -27,7 +27,7 @@
     <script>$(document).ready(function () {
         // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal').modal();
-        $('.tooltipped').tooltip({delay: 50, html: true});
+        $('.tooltipped').tooltip({delay: 50, html: true, margin: 10});
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
         $('.collapsible').collapsible();
@@ -263,21 +263,15 @@
             </div>
         </div>
         <div class="row">
-            <ul class="grid">
                 <!--Tooltipped Bios-->
-                <li class="grid-item"><a href="#modalSheila"><img class="circle tooltipped EmpCircleLogo" data-position="bottom" data-delay="50" data-tooltip='Sheila'  src="images/Sheila.png" alt="Sheila"></a></li>
-                <li class="grid-item"><a href="#modalAshlea"><img class="circle tooltipped EmpCircleLogo" data-position="bottom" data-delay="50" data-tooltip="Ashlea" src="images/Ashlea.png" alt="Ashlea"></a></li>
-                <li class="grid-item"><a href="#modalBekah"><img class="circle tooltipped EmpCircleLogo" data-position="bottom" data-delay="50" data-tooltip="Bekah" src="images/Bekah.png" alt="Bekah"></a></li>
-                <li class="grid-item"><a href="#modalChristina"><img class="circle tooltipped EmpCircleLogo" data-position="bottom" data-delay="50" data-tooltip="Christina" src="images/Christina.png" alt="Christina"></a></li>
-            </ul>
+                <div class="col s4 m2"><a href="#modalSheila"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="50" data-tooltip='Sheila'  src="images/Sheila.png" alt="Sheila"></a></div>
+                <div class="col s4 m2"><a href="#modalAshlea"><img class="circle tooltipped EmpCircleLogoadjustedCircle" data-position="bottom" data-delay="50" data-tooltip="Ashlea" src="images/Ashlea.png" alt="Ashlea"></a></div>
+                <div class="col s4 m2"><a href="#modalBekah"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="50" data-tooltip="Bekah" src="images/Bekah.png" alt="Bekah"></a></div>
+                <div class="col s4 m2"><a href="#modalChristina"><img class="circle tooltipped EmpCircleLogo adjustedCircle" data-position="bottom" data-delay="50" data-tooltip="Christina" src="images/Christina.png" alt="Christina"></a></div>
+                <div class="col s4 m2"><a href="#modalMarielle"><img class="tooltipped EmpCircleLogo normalizeCircle" data-position="bottom" data-delay="50" data-tooltip="Marielle" src="images/Marielle_Williams-1.jpg" alt="Marielle"></a></div>
+                <div class="col s4 m2"><a href="#modalAmber"><img class="tooltipped EmpCircleLogo normalizeCircle" data-position="bottom" data-delay="50" data-tooltip="Amber" src="images/Amber.jpg" alt="Amber"></a></div> 
         </div>
-        <div class="row">
-            <ul class="grid">
-                <!--Tooltipped Bios-->
-                <li class="grid-item"><a href="#modalMarielle"><img class="circle tooltipped EmpCircleLogo normalizeCircle" data-position="bottom" data-delay="50" data-tooltip="Marielle" src="images/Marielle_Williams-1.jpg" alt="Marielle"></a></li>
-                <li class="grid-item"><a href="#modalAmber"><img class="circle tooltipped EmpCircleLogo normalizeCircle" data-position="bottom" data-delay="50" data-tooltip="Amber" src="images/Amber.jpg" alt="Amber"></a></li>
-            </ul>
-        </div>
+        
     </div>
 </div>
 
