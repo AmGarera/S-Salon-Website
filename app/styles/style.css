@@ -373,11 +373,14 @@ li {
   filter: grayscale(100%);
   z-index: 0;
 }
+.specialCircle {
+    width: 4.4rem
+}
 .normalizeCircle {
   height: 4.7rem;
   border-radius: 50%;
   margin-top: 10px;
-  margin-left: 15px;
+  margin-left: 18px;
 }
 .circle {
   height: 6rem;
